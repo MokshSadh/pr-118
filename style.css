@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+
+#score{
+    font-size: 40px;
+    margin-right:80% ;
+}
+
+#timer{
+    font-size: 40px;
+}
+
+#sketch-drawn{
+    color: royalblue;
+    font-size: 20;
+}
+
+p{
+    font-size: 25px;
+}
+
+canvas{
+    border-radius: 25px;
+    border: rgb(241, 175, 69) solid;
+    margin-top: 50px;
+    animation-name: sketch;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    float: none;
+}
+
+@keyframes sketch {
+    from{box-shadow: 10px 10px 30px grey;}
+    to{box-shadow: 10px 10px 30px white;}
+}
